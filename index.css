@@ -119,9 +119,10 @@ li, a{
     margin-left:20px;
 }
 nav {
-    
+    z-index: 99;
     transition: 0.3s;
     left: -200%;
+    height: 100%;
 }
 nav.active {
     left: 0;
