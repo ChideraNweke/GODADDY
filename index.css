@@ -249,9 +249,67 @@ form {
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
-    
-    height: 800px;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 400px
 }
+.highlight-text{
+    width: 50%; 
+    
+    height: 100%;
+    margin-left: 50px;
+    padding-top: 25px 
+}
+#txt1{
+    font-size: 20px;
+}
+#txt2{
+    font-size: 45px;
+    
+}
+.button {
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    
+    margin: 0 5px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+.button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+.button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+}
+.button .icon {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+.button:hover{
+    width: 400px;
+}
+#txt3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 20px
+}
+#txt4{
+    font-size: 15px;
+}
+
 
 @media   (max-width : 768px) {
     .myBurger {
