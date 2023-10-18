@@ -147,6 +147,54 @@ nav.active {
 .nav-link{
     margin-top: 100px;
 }
+    
+
+
+
+
+.nav-items-1{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    cursor:pointer;
+    width:100%;
+    cursor:pointer;
+    align-items:center;
+    overflow:hidden;
+    transition: all linear .2s;
+}
+
+
+
+
+.nav-items-btn .fas{
+    transform:translateX(70%);
+    opacity:1;
+    transition:all linear .2s;
+    width:50px;
+}
+
+.nav-items-btn:hover .fas{
+    transform:translateX(100%);
+    opacity:1;
+}
+.nav-links2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40%;
+}
+.nav-items{
+    display: flex;
+    margin-top: 5%;
+}
+
+.nav-items .link2-items{
+    font-size: 20px;
+    margin-left: 5%;
+    padding: 0;
+    
+}
 .nav-items-1{
     margin-top: 15%;
     color: #807d75;
