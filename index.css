@@ -5,7 +5,9 @@
 }
 body {
     font-family: 'Inter', sans-serif;
+    
 }
+
 
 .wrapper {
     width: 100%;
@@ -111,8 +113,9 @@ li, a{
 .secondary-nav{
     position: absolute;
     top: 0px;
-    width: 500px;
+    width: 440px;
     background-color: white;
+    height: 1000px;
 }
 
 .secondary-nav-inner{
@@ -128,9 +131,7 @@ nav.active {
     left: 0;
 }
 
-.nav-logo{
-    background: red;
-}
+
 .nav-logo img{
     height: 200px;
     width: 350px;
@@ -139,53 +140,23 @@ nav.active {
     left: -40px
     
 }
-
+.nav-logo{
+    height: 50px;
+    
+}
 .nav-link{
-    margin:100px 0 0;
-}
-.nav-links1{
-    font-size: 30px;
-    margin-top: 110px;
-    margin-bottom: 120px;
-}
-.nav-items-btn{
-    
-    
-    border: none;
-    appearance: none;
-    display: block;
-    
-    
-    
-    appearance: none;
-    background: none;
-    outline: none;
-    border: none;
-    
-    margin-top: 30px;
-}
-.nav-links1 .nav-items{
     margin-top: 100px;
-    justify-content: space-between;
 }
-.nav-links1 {
-    margin-right: 30px;
+.nav-items-1{
+    margin-top: 15%;
+    color: #807d75;
 }
-.link1-items{
-    margin-right: 100px;
+.link1-icons{
+    font-size: 20px;
+    margin-right: 50px;
 }
-.nav-links2 .nav-items {
-    justify-content: space-between;
-    margin-top: 30px;
-    
-    
-}
-.link2-items {
-    margin-right: 350px
-}
-.nav-links2 {
-    font-size: 21px;
-}  
+
+
 
 /* header and nav */
 
@@ -204,7 +175,7 @@ nav.active {
 .search-domain-field{
     display: inline-block;
     width: 100%;
-    font-size: 2em;
+    font-size: 1em;
     outline: none;
     padding: 15px;
     margin:0;
@@ -302,7 +273,7 @@ form {
     
 }
 .button:hover h3{ 
-   transform:translateX( 15%);
+    transform:translateX( 15%);
 }
 
 .highlight2{
